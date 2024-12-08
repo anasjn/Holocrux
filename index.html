@@ -7,13 +7,13 @@
     <a-scene embedded arjs inspector keyboard-shortcuts screenshot vr-mode-ui devie-orientation-permission-ui>
       <a-marker preset="hiro" material arjs-anchor arjs-hit-testing>
         <!-- Asset management system. -->
-        <a-assets>
-          <a-asset-item id="snake" src="snake_statue.glb"></a-asset-item>
-        </a-assets>
+        <!--a-assets>
+          <a-asset-item id="snake" src=""></a-asset-item>
+        </a-assets-->
         <a-entity
           position="0 0 0"
           scale="0.05 0.05 0.05"
-          gltf-model="#snake"
+          gltf-model="snake_statue.glb"
         ></a-entity>
       </a-marker>
       <a-entity camera></a-entity>
