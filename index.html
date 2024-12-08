@@ -12,14 +12,15 @@
   <a-scene embedded arjs">
      <!-- Modelo 3D de la serpiente -->
     <a-marker preset="hiro">
-      <a-entity 
+      <a-box position='0 0.5 0' material='color: red;'></a-box>
+      <!--a-entity 
         gltf-model="https://anasjn.github.io/Horrocrux/snake_statue.glb" 
         scale="0.5 0.5 0.5" 
         position="0 0 0">
-      </a-entity>
+      </a-entity-->
     </a-marker>
     <!-- Cámara AR -->
-    <!--a-entity camera></a-entity-->
+    <a-entity camera></a-entity>
   </a-scene>
 </body>
 </html>
